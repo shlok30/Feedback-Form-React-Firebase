@@ -1,0 +1,48 @@
+.rating{
+    display:flex;
+    margin-top:7.5px;
+    padding:2rem 0;
+}
+.rating h3{
+    width:100px;
+    text-transform: capitalize;
+    margin-left:5px
+}
+.radio{
+    width:100%;
+}
+
+.radio-wrapper{
+    margin-left:20px;
+    position: relative;
+}
+.radio input{
+    margin-left:15px;
+    padding: 10%;
+}
+
+.rd-btn {
+    display: inline-block;
+    position: absolute;
+    transform: translateX(-3rem);
+    border: 0px;
+}
+
+.rd-btn:nth-child(1){
+    left:20%
+}
+.rd-btn:nth-child(2){
+    left:40%
+}
+.rd-btn:nth-child(3){
+    left: 60%;
+}
+
+.rd-btn:nth-child(4){
+    left:80%
+}
+
+.rd-btn:nth-child(5){
+    left:100%
+}
+

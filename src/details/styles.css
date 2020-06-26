@@ -1,0 +1,22 @@
+.details-container{
+    display:flex;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+.input{
+    width:100%;
+}
+
+.details-container input{
+    width:80%;
+    margin-left:20px;
+    background: transparent;
+    border: none;
+    border-bottom:1px solid black
+}
+
+.details-container h3{
+    width:100px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
