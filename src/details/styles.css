@@ -1,7 +1,8 @@
 .details-container{
     display:flex;
     margin-top: 5px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    padding:1rem 0;
 }
 .input{
     width:100%;

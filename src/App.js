@@ -68,12 +68,15 @@ class form extends React.Component{
             <RadioComponent name="service" handleChange={this.handleChange} status={this.state.service}/>
             <RadioComponent name="drinks" handleChange={this.handleChange} status={this.state.drinks}/>
           </div>
-          <DetailsComponent label="name" handleChange={this.handleChange} status={this.state.name}/>
-          <DetailsComponent label="number" handleChange={this.handleChange} />
 
-          <textarea name='comments' value={this.state.comments} placeholder="Enter Comments Or Suggestions" onChange={(e)=> this.handleChange(e.target.name,e.target.value)}></textarea>
+          <div className = "feedback-options-2">
+            <DetailsComponent label="name" handleChange={this.handleChange} status={this.state.name}/>
+            <DetailsComponent label="number" handleChange={this.handleChange} />
 
-          <button onClick={this.handleSubmit} type='submit' className="btn">Submit</button>
+            <textarea name='comments' value={this.state.comments} placeholder="Enter Comments Or Suggestions" onChange={(e)=> this.handleChange(e.target.name,e.target.value)}></textarea>
+
+            <button onClick={this.handleSubmit} type='submit' className="btn">Submit</button>
+          </div>
 
           <footer>
             <h5>Please review and bookmark us on Zomato for updates</h5>
